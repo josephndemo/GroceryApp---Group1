@@ -11,14 +11,18 @@ const Home = () => {
   return (
     <div className="home-page">
       <section className="hero">
-        <div className="hero-content">
-          <div>
-            <h1>Fresh Groceries, Delivered To Your Door</h1>
-            <p>Shop fresh fruits, vegetables, dairy, and more from the comfort of your home.</p>
-            <Link to="/shop" className="btn-primary">Start Shopping</Link>
-          </div>
-          <img src="https://img.freepik.com/premium-vector/logo-fresh-grocery-with-basket-vegetables_763064-309.jpg" alt="Fresh Groceries" />
-        </div>
+<div className="hero-content">
+  <div>
+    <h1>Fresh Groceries, Delivered To Your Door</h1>
+    <p>Shop fresh fruits, vegetables, dairy, and more from the comfort of your home.</p>
+    <Link to="/shop" className="btn-primary">Start Shopping</Link>
+  </div>
+  <img
+    src="https://img.freepik.com/premium-vector/logo-fresh-grocery-with-basket-vegetables_763064-309.jpg"
+    alt="Fresh Groceries"
+    className="hero-image"
+  />
+</div>
       </section>
 
       <section className="categories">
