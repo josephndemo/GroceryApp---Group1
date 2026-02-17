@@ -1,16 +1,16 @@
 {
   "products": [
     { "id": "1", "name": "Organic Bananas", "price": 0.99, "category": "Fruits", "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400" },
-    { "id": "2", "name": "Whole Milk", "price": 3.50, "category": "Dairy", "image": "https://images.unsplash.com/photo-1563636619-e910ef2a844b?w=400" },
-    { "id": "3", "name": "Brown Eggs", "price": 2.99, "category": "Dairy", "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400" },
-    { "id": "4", "name": "Strawberries", "price": 4.25, "category": "Fruits", "image": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=400" },
-    { "id": "5", "name": "Almond Butter", "price": 7.50, "category": "Pantry", "image": "https://images.unsplash.com/photo-1617196031241-9f584e9360c4?w=400" },
-    { "id": "6", "name": "Greek Yogurt", "price": 1.50, "category": "Dairy", "image": "https://images.unsplash.com/photo-1603297630293-39de46c417b4?w=400" },
-    { "id": "7", "name": "Spinach", "price": 2.75, "category": "Vegetables", "image": "https://images.unsplash.com/photo-1582515073490-d7bc1f8e174e?w=400" },
-    { "id": "8", "name": "Carrots", "price": 1.99, "category": "Vegetables", "image": "https://images.unsplash.com/photo-1582515073490-d7bc1f8e174e?w=400" },
-    { "id": "9", "name": "Whole Wheat Bread", "price": 3.00, "category": "Bakery", "image": "https://images.unsplash.com/photo-1608198093002-9f8b3f8dbd82?w=400" },
-    { "id": "10", "name": "Cheddar Cheese", "price": 5.25, "category": "Dairy", "image": "https://images.unsplash.com/photo-1601924582971-8b5b89c2d2a2?w=400" },
-    { "id": "11", "name": "Avocado", "price": 1.25, "category": "Fruits", "image": "https://images.unsplash.com/photo-1580910051070-69f1eb95dc68?w=400" },
-    { "id": "12", "name": "Orange Juice", "price": 4.00, "category": "Beverages", "image": "https://images.unsplash.com/photo-1573883433216-c2c0d0b23111?w=400" }
+    { "id": "2", "name": "Whole Milk", "price": 3.50, "category": "Dairy", "image": "https://cdn.mafrservices.com/sys-master-root/h34/ha8/17328239607838/11709_main.jpg" },
+    { "id": "3", "name": "Brown Eggs", "price": 2.99, "category": "Dairy", "image": "https://www.mashed.com/img/gallery/are-brown-eggs-really-worth-the-extra-cost/intro-1597233855.jpg" },
+    { "id": "4", "name": "Strawberries", "price": 4.25, "category": "Fruits", "image": "https://i5.walmartimages.com/asr/373f0c0a-d976-4518-967c-9e8c626d1a10.fd992b4534c99ffa7bba91525be393cb.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" },
+    { "id": "5", "name": "Almond Butter", "price": 7.50, "category": "Pantry", "image": "https://bjs.scene7.com/is/image/bjs/172074?$bjs-800$" },
+    { "id": "6", "name": "Greek Yogurt", "price": 1.50, "category": "Dairy", "image": "https://mojo.generalmills.com/api/public/content/6EXai7F7Dk2q0t7hz4SwDA_gmi_hi_res_jpeg.jpeg?v=f39c04eb&t=bc0cec1fd4bc4c35b967df95af8c1fcc" },
+    { "id": "7", "name": "Spinach", "price": 2.75, "category": "Vegetables", "image": "https://www.mahagro.com/cdn/shop/articles/spinach.jpg?v=1490962590" },
+    { "id": "8", "name": "Carrots", "price": 1.99, "category": "Vegetables", "image": "https://images.ibspot.com/s5zllnkjx9ge3zttpy7hcqo9asxx?width=800&height=800&format=webp" },
+    { "id": "9", "name": "Whole Wheat Bread", "price": 3.00, "category": "Bakery", "image": "https://www.girlversusdough.com/wp-content/uploads/2025/09/whole-grain-seeded-bread-soft-crumb.jpg" },
+    { "id": "10", "name": "Cheddar Cheese", "price": 5.25, "category": "Dairy", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yrU-xbtD40QvmRp7Ufc9dz83djiNl4zvAg&s" },
+    { "id": "11", "name": "Avocado", "price": 1.25, "category": "Fruits", "image": "https://img.imageboss.me/fourwinds/width/425/dpr:2/shop/products/shutterstock_100322618hass_avocado.jpg?v=1729718212" },
+    { "id": "12", "name": "Orange Juice", "price": 4.00, "category": "Beverages", "image": "https://cdn.smithbrothersfarms.com/media/0013924_simply-orange-pulp-free-juice-46-fl-oz.jpeg" }
   ]
 }
