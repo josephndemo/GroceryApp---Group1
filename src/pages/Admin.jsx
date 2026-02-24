@@ -128,7 +128,7 @@ const Admin = () => {
             />
 
             <h2>{product.name}</h2>
-            <p>${product.price.toFixed(2)}</p>
+            <p>Ksh.{product.price.toFixed(2)}</p>
             <p>{product.category}</p>
 
             <button onClick={() => handleDelete(product.id)}>
