@@ -71,6 +71,7 @@ const Admin = () => {
     <div className="admin-page">
       <h1>Admin Dashboard</h1>
 
+      {/* ================= FORM ================= */}
       <div className="admin-form">
         <input
           placeholder="Name"
@@ -101,15 +102,35 @@ const Admin = () => {
             setForm({ ...form, image: e.target.value })
           }
         />
+
+        {/* Live Image Preview */}
+        {form.image && (
+          <img
+            src={form.image}
+            alt="Preview"
+            className="admin-preview"
+          />
+        )}
+
         <button onClick={handleAdd}>Add Product</button>
       </div>
 
+      {/* ================= PRODUCTS GRID ================= */}
       <div className="admin-grid">
         {products.map(product => (
           <div key={product.id} className="admin-card">
+
+            {/* Thumbnail */}
+            <img
+              src={product.image}
+              alt={product.name}
+              className="admin-thumbnail"
+            />
+
             <h2>{product.name}</h2>
             <p>${product.price.toFixed(2)}</p>
             <p>{product.category}</p>
+
             <button onClick={() => handleDelete(product.id)}>
               Delete
             </button>
