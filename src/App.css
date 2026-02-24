@@ -294,3 +294,16 @@ a {
   box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
   color: #555;
 }
+
+.promo {
+  display: flex;
+  flex-direction: column; /* Stack heading and paragraph vertically */
+  align-items: center;    /* Center horizontally */
+  text-align: center;     /* Center text inside */
+  justify-content: center; /* Optional: center vertically if section has height */
+  padding: 2rem 1rem;
+  background: #e0e7ff; /* subtle highlight */
+  border-radius: 16px;
+  margin: 2rem auto;
+  max-width: 500px; /* Optional: limit width for better readability */
+}
