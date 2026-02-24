@@ -109,6 +109,14 @@
       "category": "Fruits",
       "image": "https://i5.walmartimages.com/asr/373f0c0a-d976-4518-967c-9e8c626d1a10.fd992b4534c99ffa7bba91525be393cb.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
       "quantity": 1
+    },
+    {
+      "id": "12",
+      "name": "Orange Juice",
+      "price": 4,
+      "category": "Beverages",
+      "image": "https://cdn.smithbrothersfarms.com/media/0013924_simply-orange-pulp-free-juice-46-fl-oz.jpeg",
+      "quantity": 1
     }
   ]
 }
