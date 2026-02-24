@@ -29,7 +29,7 @@ a {
 .header {
   background: white;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  padding: 1rem 2rem;
+  padding: 1rem 22rem;
   position: fixed;   /* changed from sticky */
   top: 0;
   left: 0;

@@ -10,13 +10,17 @@ const featuredCategories = [
 const Home = () => {
   return (
     <div className="home-page">
-      {}
 
       <section className="categories">
         <h2>Featured Categories</h2>
+
         <div className="categories-grid">
           {featuredCategories.map(category => (
-            <Link to="/shop" key={category.id} className="category-card">
+            <Link
+              to={`/shop?category=${category.name}`}
+              key={category.id}
+              className="category-card"
+            >
               <img src={category.image} alt={category.name} />
               <p>{category.name}</p>
             </Link>
@@ -26,8 +30,9 @@ const Home = () => {
 
       <section className="promo">
         <h3>Free Delivery on Orders</h3>
-        <p>Enjoy fresh groceries delivered right to your doorstep </p>
+        <p>Enjoy fresh groceries delivered right to your doorstep</p>
       </section>
+
     </div>
   );
 };
