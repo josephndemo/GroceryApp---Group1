@@ -13,7 +13,7 @@ const Home = () => {
       <section className="hero">
 <div className="hero-content">
   <div>
-    <h1>Fresh Groceries, Delivered To Your Door</h1>
+    <h1>Fresh Groceries</h1>
     <p>Shop fresh fruits, vegetables, dairy, and more from the comfort of your home.</p>
     <Link to="/shop" className="btn-primary">Start Shopping</Link>
   </div>
@@ -38,8 +38,8 @@ const Home = () => {
       </section>
 
       <section className="promo">
-        <h3>Free Delivery on Orders Over $50!</h3>
-        <p>Enjoy fresh groceries delivered right to your doorstep with no extra cost on orders over $50.</p>
+        <h3>Free Delivery on Orders</h3>
+        <p>Enjoy fresh groceries delivered right to your doorstep </p>
       </section>
     </div>
   );
